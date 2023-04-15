@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #F3F5F9;
+}
+h2{
+    margin-left: 40px;
+    margin-top: 50px;
+    color: #171B30;
+}
+.container{
+    background-color: #FFFFFF;
+    padding: 20px;
+    width: 700px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 10px;
+    box-shadow: 2px 2px  4px rgb(201, 213, 243);
+    border: 1px solid rgb(225, 241, 225);
+}
+i{
+    margin-left: 10px;
+}
+.subcontainer{
+    margin:40px 20px 40px 40px  ;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    gap: 20px;
+    cursor: pointer;
+    color: #A8A9B0;
+}
+.fry:hover{
+    color:#718BEC ;
+}
+.Amy{
+    color: #090c1a;
+}
+.Amy:hover{
+    color: #49558a;
+}
+
+ .home{
+    margin-right: 10px;
+    /* color:#6C8DE6 */
+ }
+ 
+.borderContaner{
+    margin:20px 10px 40px 30px  ;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    gap: 20px;
+    cursor: pointer;
+    border-top: 2px solid #eae7f8;
+    border-bottom: 2px solid #e6e4f7;
+    padding: 10px;
+    font-size: 1.1rem;
+    color: #A8A9B0;
+}
+.borderContaner i{
+    color:#274eb7
+ }
+.peter:hover{
+    color: #49558a;
+}
+.third{
+    margin:10px 20px 50px 40px  ;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    gap: 20px;
+    cursor: pointer;
+    font-size: .9rem;
+    color:#274eb7
+}
+.third i{
+    color:#274eb7
+ }
